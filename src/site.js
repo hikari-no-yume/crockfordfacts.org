@@ -34,7 +34,7 @@ footer += '</footer>';
 
 function error(response, code, message) {
     response.writeHead(code, {'Content-Type': 'text/html;charset=utf-8'});
-    response.end('<!doctype html><title>' + code + ' ' + message + '</title>' + '<h1>' + code + message + '</h1>');
+    response.end('<!doctype html><title>' + code + ' ' + message + '</title>' + '<h1>' + code + ' ' + message + '</h1>');
 }
 
 function startServer() {

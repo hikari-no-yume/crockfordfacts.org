@@ -19,7 +19,7 @@ var uniqueFacts = {},
 function finish() {
     fs.writeFile(
         'facts.json',
-        JSON.stringify(Object.keys(uniqueFacts)),
+        JSON.stringify(Object.keys(uniqueFacts), null, 4),
         function (error) {
             if (error) {
                 console.log('Saving failed! :(');

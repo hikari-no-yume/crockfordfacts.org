@@ -12,6 +12,10 @@ h1 {
     border: 2px solid #000;
 }
 
+li {
+    margin-bottom: 0.5em;
+}
+
 footer {
     text-align: center;
 }

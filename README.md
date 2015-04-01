@@ -11,7 +11,8 @@ Website setup works like so:
 
 1. `npm install` (installs dependencies)
 2. `cp config.example.json config.json && vim config.json` (set the port)
-3. Either of:
+3. One of:
+   * `curl http://crockfordfacts.org/.json > facts.json`
    * `cp facts.example.json facts.json && vim facts.json`
    * `cp ../collector/facts.json facts.json`
 4. `node site.js` (runs the site)

@@ -1,7 +1,7 @@
 Read me
 =======
 
-crockfordfacts.org is a website containing many facts about [Douglas Crockford](http://crockford.com). I made this because I was sad about the demise of crockfordfacts*.com*, and luckily I could recover many of its facts from the tweets of the [@CrockfordFacts](http://twitter.com/CrockfordFacts) bot someone had made for that site.
+crockfordfacts.org is a website containing many facts about [Douglas Crockford](http://crockford.com). I made this because I was sad about the demise of crockfordfacts*.com*, and luckily I could recover many of its facts from the tweets of the [@CrockfordFacts](http://twitter.com/CrockfordFacts) bot someone had made for that site, and from IRC logs of [CrockBot](https://github.com/mikeal/crockbot), a similar IRC bot.
 
 Written in JavaScript using node.js. ![JSLint](http://www.jslint.com/jslintpill.gif) compliant, of course: [jslint.com](http://www.JSLint.com/)
 

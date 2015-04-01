@@ -1,0 +1,6 @@
+{
+    "consumerKey": "foo",
+    "consumerSecret": "bar",
+    "accessToken": "baz",
+    "accessTokenSecret": "qux"
+}

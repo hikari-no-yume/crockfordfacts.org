@@ -1,0 +1,12 @@
+server {
+    listen 80;
+    server_name crockfordfacts.org;
+
+    access_log  /var/log/nginx/crockfordfacts.org;
+
+    root    /var/www/crockfordfacts.org;
+
+    location / {
+        proxy_pass        http://localhost:8001;
+    }
+}

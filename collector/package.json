@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "node-twitter-api": ">=1.5.0"
+    }
+}

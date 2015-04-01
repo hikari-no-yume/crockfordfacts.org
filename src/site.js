@@ -22,6 +22,8 @@ header += ' - ';
 header += '<a href=/random>random</a>';
 header += ' - ';
 header += '<a href=/random.json>random json</a>';
+header += ' - ';
+header += '<a href="mailto:submit@crockfordfacts.org?subject=Crockford%20Fact%20Submission">submit</a>';
 
 var footer = '';
 footer += '<footer>';

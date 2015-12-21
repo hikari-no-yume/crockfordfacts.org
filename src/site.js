@@ -27,9 +27,9 @@ header += '<a href="mailto:ajf@ajf.me?subject=Crockford%20Fact%20Submission">sub
 
 var footer = '';
 footer += '<footer>';
-footer += '<a href="http://www.JSLint.com"><img src="http://jslint.com/jslintpill.gif" alt=JSLint></a>';
-footer += '<a href="https://github.com/TazeTSchnitzel/crockfordfacts.org"><img src="http://jslint.com/github.gif" alt=GitHub></a>';
-footer += '<a href="http://www.JSON.org/"><img src="http://jslint.com/jsonpill.gif" alt=JSON></a>';
+footer += '<a href="http://www.JSLint.com"><img src="http://jslint.com/images/jslintpill.gif" alt=JSLint></a>';
+footer += '<a href="https://github.com/TazeTSchnitzel/crockfordfacts.org"><img src="http://jslint.com/images/github.gif" alt=GitHub></a>';
+footer += '<a href="http://www.JSON.org/"><img src="http://jslint.com/images/jsonpill.gif" alt=JSON></a>';
 footer += '</footer>';
 
 function error(response, code, message) {
